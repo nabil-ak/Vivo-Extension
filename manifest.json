@@ -14,7 +14,7 @@
     },
     "content_scripts": [
         {
-          "matches": ["https://vivo.sx/*"],
+          "matches": ["https://vivo.sx/*","https://vivo.st/*"],
           "js": ["inject.js"],
           "run_at": "document_idle"
         }
